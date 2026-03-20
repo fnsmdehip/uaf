@@ -1,27 +1,9 @@
-# Dependencies
-node_modules/
-venv/
-.venv/
-env/
-__pycache__/
-*.pyc
-
-# Environment
-.env
-.env.local
-.env.*.local
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS
+# Temp/working files
+unpacked/
+*.log
+v45_full.md
+.claude/
 .DS_Store
-Thumbs.db
 
-# Build
-dist/
-build/
-*.egg-info/
+# Backup files (keep in version history, not needed in repo)
+*_BACKUP_*.docx
